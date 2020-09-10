@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../everyqa-public-api/php/EveryqaClient-php/"
+    }
+  ],
+  "require": {
+    "symfony/console": "^5.1",
+    "everyqa/public-api": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "EveryQACli\\": "src/"
+    }
+  }
+}
